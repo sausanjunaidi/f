@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Mr. Mung" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+		<title>DZIKIR DAN DOA</title>
+
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="jquery.mmenu.all.css" />
+		<style type="text/css"> 
+    @font-face {font-family: 'KFGQPC_Naskh'; src: url('KFC_naskh.eot'); src: local('KFGQPC Uthman Taha Naskh'), url('KFC_naskh.otf') format('opentype');}
+    </style>
+		<!-- for the one page layout -->
+		<style type="text/css">
+			section
+			{
+				border-top: 1px solid #ccc;
+				padding: 150px 0 200px;
+			}
+			section:first-child
+			{
+				border-top: none;
+				padding-top: 0;
+			}
+		</style>
+		
+		<!-- for the fixed header -->
+		<style type="text/css">
+			.header,
+			.footer
+			{
+				position: fixed;
+				left: 0;
+				right: 0;
+			}
+			.header
+			{
+				top: 0;
+			}
+			.footer
+			{
+				bottom: 0;
+			}
+			@media (min-width: 2000px) {
+				.header a
+				{
+					display: none;
+				}
+			}
+
+		</style>
+
+		
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="hammer.min.js"></script>
+
+		<script type="text/javascript" src="jquery.mmenu.all.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu({
+					drag 		: true,
+					pageScroll 	: {
+						scroll 		: true,
+						update		: true
+					},
+					// extensions: {
+					// 	'all': ['pagedim-white'],
+					// 	'(min-width: 400px)' : ['pagedim-black']
+					// },
+					sidebar 	: {
+						expanded 	: 2000
+					}
+				});
+			});
+		</script>
+<script type="text/javascript">
+        $(function () {
+            $(".font-button").bind("click", function () {
+                var size = parseInt($('#content').css("font-size"));
+                if ($(this).hasClass("plus")) {
+                    size = size + 2;
+                } else {
+                    size = size - 2;
+                    if (size <= 10) {
+                        size = 10;
+                    }
+                }
+                $('#content').css("font-size", size);
+            });
+        });
+</script>		
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+	</head>
+	<body><a href="index.html"><img style="top:5px;position:fixed;right:10px;z-index:99;max-height:28px" src="gbr.png"/></a>
+		<div id="page">
+			<div class="header Fixed">
+				<a href="#menu"><span></span></a>
+				DOA, DZIKIR & SHOLAWAT
+			</div>
+			<div class="content" id="content">
+<div class="arabcenter">
+بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
+</div>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Cari tema Doa & Dzikir.." title="Type in a category">
+<ul id="myMenu">
+<li><a href="tatacarasholat.html">✪ Tuntunan Sholat Lengkap<noscript>Sholat, salat</noscript></a></li>
+<li><a href="doaqunut.html">✪ Doa Qunut<noscript>doa</noscript></a></li>
+<li><a href="wirid.html">✪ Dzikir Setelah Shalat Fardlu<noscript>dzikir, wirid, sholat, fardu</noscript></a></li>
+<li><a href="doasetelahsholat.html">✪ Doa Setelah Shalat<noscript>doa</noscript></a></li>
+<li><a href="tahajud.html">✪ Sholat Sunnah Tahajud<noscript>Sholat, salat, tahajud, doa tahajud, tata cara</noscript></a></li>
+<li><a href="hajat.html">✪ Sholat Sunnah Hajat<noscript>Sholat, salat, hajat, tata cara</noscript></a></li>
+<li><a href="sholattasbih.html">✪ Sholat Sunnah Tasbih<noscript>Sholat, salat, tasbih, tata cara</noscript></a></li>
+<li><a href="duha.html">✪ Sholat Sunnah Dhuha<noscript>Sholat, salat, duha, dhuha, tata cara</noscript></a></li>
+<li><a href="mandijenazah.html">✪ Cara Memandikan Jenazah</a></li> 
+<li><a href="mengkafani.html">✪ Cara Mengkafani Jenazah</a></li> 
+<li><a href="jenazah.html">✪ Tata Cara Sholat Jenazah</a></li> 
+<li><a href="rotibulhadad.html">✪ Rotib Al Hadad</a><noscript>doa, dzikir, rotibul, hadad</noscript></li> 
+<li><a href="rotibalatos.html">✪ Rotib Al Atos</a><noscript>doa, dzikir, rotibul, alatos</noscript></li> 
+<li><a href="dzikirpagi.html">✪ Dzikir Pagi</a><noscript>doa, dzikir</noscript></li> 
+<li><a href="dzikirpetang.html">✪ Dzikir Petang</a><noscript>doa, dzikir</noscript></li> 
+<li><a href="sayidulistighfar.html">✪ Sayidul Istighfar<noscript>istighfar</noscript></a></li>
+<li><a href="sholawat.html">✪ Sholawat Ya Robibil Musthofa<noscript>sholawat</noscript></a></li>
+<li><a href="nariyah.html">✪ Sholawat Nariyah</a><noscript>sholawat</noscript></li> 
+<li><a href="sholawatasygil.html">✪ Sholawat Asygil</a><noscript>sholawat</noscript></li> 
+<li><a href="sholawatbahriyah.html">✪ Sholawat Bahriyyah</a><noscript>sholawat</noscript></li>  
+<li><a href="sholawatalfatih.html">✪ Sholawat Al Fatih</a><noscript>sholawat</noscript></li> 
+<li><a href="sholawattibbilqulub.html">✪ Sholawat Tibbil Qulub</a><noscript>sholawat</noscript></li> 
+<li><a href="qoshidah-ziarah.html">✪ Qoshidah Salamullahi Ya Sadah</a><noscript>ziarah, qubur, wali</noscript></li>
+<li><a href="doakhatam.html">✪ Doa Khotmil Quran</a><noscript>doa, kataman, khatmil quran</noscript></li> 
+<li><a href="doamajlis.html">✪ Doa Kafaratul Majelis<noscript>doa, kafaratul,majlis,penutup</noscript></a></li>
+<li><a href="doatarawih.html">✪ Doa Setelah Shalat Tarawih</a><noscript>doa</noscript></li>  
+<li><a href="doaakhirtahun.html">✪ Doa Akhir Tahun</a><noscript>doa</noscript></li> 
+<li><a href="doaawaltahun.html">✪ Doa Awal Tahun</a><noscript>doa</noscript></li> 
+<li><a href="doanisfusaban.html">✪ Doa Nishfu Sa'ban</a><noscript>doa</noscript></li> 
+<li><a href="doanikah.html">✪ Doa Pernikahan</a><noscript>doa, nikah</noscript></li> 
+<li><a href="doamitoni.html">✪ Doa Tingkeban (7 Bulan Kehamilan)</a><noscript>doa, lahiran,aqiqoh, mitoni, 7 bulan, tujuh bulan kehamilan</noscript></li> 
+<li><a href="doaaqiqoh.html">✪ Doa Aqiqoh</a><noscript>doa, lahiran,aqiqoh</noscript></li> 
+<li><a href="doasakit.html">✪ Doa Menjenguk Orang Sakit</a><noscript>doa, orang sakit</noscript></li> 
+<li><a href="talqin2.html">✪ Talqin Bahasa Arab</a><noscript>doa, talkin, talqin, mayit</noscript></li> 
+<li><a href="talqin.html">✪ Talqin Bahasa Jawa</a><noscript>doa, talkin, talqin, mayit</noscript></li> 
+<li><a href="bilaltarawih.html">✪ Bacaan Bilal Tarawih</a><noscript>sholawat, bilal, tarawih, witir</noscript></li> 
+<li><a href="witir.html">✪ Sholat Witir dan Doa</a><noscript>sholawat, witir</noscript></li> 
+
+
+</ul>
+<a class="font-button plus"><img style="bottom:18px;position:fixed;right:0px;width:50px;" src="masjid4.png"/></a>
+<a class="font-button minus"><img style="bottom:18px;position:fixed;left:0px;width:50px;" src="masjid3.png"/></a>
+			</div>
+			<div class="footer Fixed">
+				© Mung Media
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">✪ Home</a></li>
+					<li><a href="yaasinarab.html">✪ Surat Yasin</a>
+					<ul>
+					<li><a href="doayasin.html">✪ Doa Surat Yasin</a></li>
+					<li><a href="fadilahyasin.html">✪ Fadilah Surat Yasin</a></li>			
+					</ul></li>
+					<li><a href="tahlil.html">✪ Tahlil Lengkap</a></li>
+					<li><a href="tahlilringkas.html">✪ Tahlil Ringkas</a></li>
+					<li><a href="doatahlil.html">✪ Doa Tahlil</a>
+					<ul>
+					<li><a href="doatahlil.html">✪ Doa Tahlil V.1 (Singkat)</a></li>					
+					<li><a href="doatahlil2.html">✪ Doa Tahlil V.2 (Lengkap)</a></li>
+					</ul>
+					</li>					
+					<li><a href="suratpilihan.html">✪ Surat Pilihan dan Juz 'Amma</a></li>			
+					<li><a href="asmaulhusna.html">✪ Asmaul Husna</a></li>					
+					<li><a href="istighosah.html">✪ Istighosah</a></li>									
+					<li><a href="https://play.google.com/store/apps/details?id=com.mungmedia.maulid">✪ Kitab Maulid Lengkap</a></li>
+					<li><a href="lain.html">✪ Lain-Lain (Doa, Dzikir dan Sholawat)</a></li>
+					<li><a href="tentang.html">✪ Tentang Aplikasi</a></li>	
+				</ul>
+			</nav>
+		</div>
+	</body>
+</html>
